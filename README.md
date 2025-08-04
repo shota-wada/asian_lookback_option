@@ -13,8 +13,8 @@ Furthermore, this report highlights the application of Monte-Carlo simulation as
 The goal of this report is to provide insights into the pricing of Asian and Lookback option, offering comprehensive understanding of their unique characteristics and pricing methodologies. The methodolgies explored, including Euler-Maruyama scheme and Monte-Carlo simulation, can be powerful tools for option pricing, risk management, and decision-making in financial markets.
 
 ### Key Concepts:
-- Risk-neutral valuation: 
-![formula](https://latex.codecogs.com/png.image?\dpi{120}&space;V(S,t)=e^{-r(T-t)}\mathbb{E}^Q[\text{Payoff}(S_T)])
+- Risk-neutral valuation:<br>
+![Option Pricing Formula](https://latex.codecogs.com/png.image?\dpi{120}&space;\color{White}V%28S%2Ct%29%20%3D%20e%5E%7B-r%28T-t%29%7D%20\mathbb{E}%5EQ%5B\text%7BPayoff%7D%28S_T%29%5D)
 - Euler–Maruyama discretization for simulating geometric Brownian motion.
 - Focus on *path-dependent payoffs*, where the option value depends on the trajectory of the asset, not just the terminal value.
 
