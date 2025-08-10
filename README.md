@@ -14,6 +14,7 @@ The goal of this report is to provide insights into the pricing of Asian and Loo
 
 ### Key Concepts:
 - Risk-neutral valuation:<br>
+![Option Pricing Formula](https://latex.codecogs.com/svg.image?%5Cbg_white%20V%28S%2Ct%29%20%3D%20e%5E%7B-r%28T-t%29%7D%5Cmathbb%7BE%7D%5E%7B%5Cmathbb%7BQ%7D%7D%5B%5Ctext%7BPayoff%7D%28S_T%29%5D)
 - Euler–Maruyama discretization for simulating geometric Brownian motion.
 - Focus on *path-dependent payoffs*, where the option value depends on the trajectory of the asset, not just the terminal value.
 
